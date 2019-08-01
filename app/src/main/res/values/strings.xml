@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WeChat</string>
+
+    <string name="add_friend">添加朋友</string>
+    <string name="search">搜索</string>
+    <string name="send">发送</string>
+
+    <!--主界面-->
+    <string name="message">微信</string>
+    <string name="contacts">通讯录</string>
+    <string name="discovery">发现</string>
+    <string name="me">我</string>
+
+    <!--最近会话-->
+    <string name="draft">[草稿]</string>
+    <string name="picture">图片</string>
+    <string name="voice">语音</string>
+    <string name="sticker">贴图</string>
+    <string name="video">视频</string>
+    <string name="set_conversation_to_top">置顶聊天</string>
+    <string name="cancel_conversation_to_top">取消置顶</string>
+    <string name="delete_conversation">删除该聊天</string>
+
+    <string name="please_to_talk">按住 说话</string>
+</resources>
