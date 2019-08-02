@@ -114,6 +114,10 @@ public class ChatActiviy extends AppCompatActivity {
                     Bundle dName = msg.getData();
                     String deviceName = dName.getString("device_name");
                     //Toast.makeText(getApplicationContext(), "Connected to " + deviceName, Toast.LENGTH_SHORT).show();
+                    ChatMessage chatMessage1 = new ChatMessage();
+                    chatMessage1.setType(ChatAdapter.RECEIVE_TEXT);
+                    chatMessage1.setContent("Connectted to " + deviceName + " successfully!");
+                    receiveNewMessage(chatMessage1);
                     break;
                 default:
                     break;
